@@ -1,6 +1,6 @@
 a {
-    color: aliceblue;
     text-decoration: none;
+    color: rgb(255, 71, 200);
 }
 
 .menu-button {
@@ -14,7 +14,6 @@ a {
     /* border: 1px solid #84bbf3; */
     display: block;
     cursor: pointer;
-    color: #ffffff;
     font-family: Arial;
     font-size: 25px;
     font-weight: bold;
