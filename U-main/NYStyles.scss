@@ -1,4 +1,4 @@
-$border-color-container: #ff002f;
+$border-color-container:  solid 2px #71ab97;
 
 
 header {
@@ -83,9 +83,9 @@ header {
                 height: 200px;
                 display: flex;
                 flex-direction: column;
-                border: solid 1px $border-color-container;
-                border-radius: 6px;
-                margin: 5px;
+                border: $border-color-container;
+                border-radius: 10px;
+                margin: 10px;
 
                 &.wide-x-2 {
                     width: 600px;
@@ -111,7 +111,7 @@ header {
                 .name {
                     display: flex;
                     justify-content: center;
-                    border-bottom: solid 1px $border-color-container;
+                    border-bottom: $border-color-container;
                 }
 
                 .image-and-descrintion {
@@ -128,7 +128,7 @@ header {
                     }
 
                     .image {
-                        border-right: solid 1px $border-color-container;
+                        border-right: $border-color-container;
                         display: flex;
                         justify-content: center;
                         flex: 1;
@@ -181,7 +181,7 @@ header {
                 .additional-buttons {
                     display: flex;
                     justify-content: space-around;
-                    border-top: solid 1px $border-color-container;
+                    border-top: $border-color-container;
                     flex: 1;
 
                     .action {
@@ -193,14 +193,14 @@ header {
 
                     .action:first-child {
                         background-color: rgb(188, 226, 99);
-                        border-bottom-left-radius: 6px;
-                        border-right: $border-color-container solid 1px;
+                        border-bottom-left-radius: 10px;
+                        border-right: $border-color-container;
                     }
 
                     .action:last-child {
-                        background-color: rgb(209, 120, 224);
-                        border-bottom-right-radius: 6px;
-                        border-left: $border-color-container solid 1px;
+                        background-color: rgb(232, 165, 244);
+                        border-bottom-right-radius: 10px;
+                        border-left: $border-color-container;
                     }
                 }
 
@@ -228,7 +228,7 @@ header {
             }
 
             .hot-key {
-                border: 1px solid $border-color-container;
+                border: $border-color-container;
                 border-radius: 4px;
                 margin: 5px;
                 padding: 2px;
@@ -253,14 +253,14 @@ header {
             }
 
             .liketoget {
-                border: 1px $border-color-container solid;
+                border: $border-color-container;
                 padding: 10px;
             }
 
             .expect {
-                border-right: 1px $border-color-container solid;
-                border-left: 1px $border-color-container solid;
-                border-bottom: 1px $border-color-container solid;
+                border-right:$border-color-container;
+                border-left:$border-color-container;
+                border-bottom: $border-color-container;
                 padding: 10px;
 
             }
