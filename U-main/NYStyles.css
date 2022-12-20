@@ -140,12 +140,12 @@ header audio {
   flex: 1;
 }
 .content .central-block .gallery-page .items-container .additional-buttons .action:first-child {
-  background-color: rgb(82, 124, 167);
+  background-color: rgb(188, 226, 99);
   border-bottom-left-radius: 6px;
   border-right: #ff002f solid 1px;
 }
 .content .central-block .gallery-page .items-container .additional-buttons .action:last-child {
-  background-color: rgb(82, 124, 167);
+  background-color: rgb(209, 120, 224);
   border-bottom-right-radius: 6px;
   border-left: #ff002f solid 1px;
 }
@@ -217,4 +217,4 @@ header audio {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-}/*# sourceMappingURL=WinterStyles.css.map */
+}/*# sourceMappingURL=NYStyles.css.map */
