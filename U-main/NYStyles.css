@@ -1,17 +1,31 @@
 @charset "UTF-8";
+body {
+  background: url(картинки/фон5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
 header {
   display: flex;
   justify-content: center;
 }
 header audio {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .title {
   display: flex;
   justify-content: center;
-  font-size: 30px;
-  padding-top: 15px;
+}
+.title H1 {
+  overflow: hidden;
+  text-shadow: 0 0 rgb(255, 71, 200), 0 0 rgb(50, 205, 166), 0 0 rgb(118, 127, 230);
+  color: transparent;
+  transition: all 2s;
+}
+.title H1:hover {
+  text-shadow: -400px 0 #e7b5fe, 400px 0 rgb(188, 226, 99), 0 0 #378de5;
 }
 
 .logo {
@@ -136,7 +150,7 @@ header audio {
 .content .central-block .gallery-page .items-container .additional-buttons .action {
   display: flex;
   justify-content: center;
-  background-color: bisque;
+  background-color: rgb(243, 220, 192);
   flex: 1;
 }
 .content .central-block .gallery-page .items-container .additional-buttons .action:first-child {
