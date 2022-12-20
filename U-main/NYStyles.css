@@ -4,22 +4,22 @@ header {
   justify-content: center;
 }
 header audio {
-  margin: 10px;
+  margin-left: 20px;
 }
 
 .title {
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 30px;
+  padding-top: 15px;
 }
 
 .logo {
   position: absolute;
-  left: 173px;
-  top: 17px;
+  left: 217px;
 }
 .logo img {
-  width: 30px;
+  width: 90px;
 }
 
 .content {
@@ -106,7 +106,7 @@ header audio {
   max-height: 100%;
 }
 .content .central-block .gallery-page .items-container .image-and-descrintion .image img:hover {
-  transform: scale(1.5);
+  transform: scale(0.8);
 }
 .content .central-block .gallery-page .items-container .image-and-descrintion .description {
   display: flex;
