@@ -1,4 +1,4 @@
-$border-color-container:  solid 2px #71ab97;
+$border-color-container:  solid 2px #2548e2;
 
 body{
     background: url(картинки/фон5.jpg);
@@ -42,11 +42,12 @@ header {
 
 .logo {
     position: absolute;
-    left: 217px;
+    left: 50px;
+    top: 20px;
 
 
     img {
-        width: 90px;
+        width: 100px;
     }
 }
 
@@ -61,6 +62,7 @@ header {
     .menu {
 
         width: 200px;
+        padding: 10px 5px 0px 5px;
 
         .menu-fly {
             position: fixed;
@@ -250,6 +252,7 @@ header {
             }
 
             .hot-key {
+                text-align: center;
                 border: $border-color-container;
                 border-radius: 4px;
                 margin: 5px;
@@ -260,43 +263,57 @@ header {
 
         }
 
+        .container_form{
+            display: flex;
+            margin: auto;
+            margin-top: 5px;
+            margin-left: 135px;
+            background-color: rgb(246, 225, 250);
+        }
+
         .newpage {
             display: none;
-
+    
             &:target {
-                display: block;
+            display: block;
+           }
+        }
+
+        .container_form fieldset, h2{
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        H1 {
+            overflow: hidden;
+            text-shadow:
+              0 0 rgb(92, 24, 71),
+              0 0 rgb(50, 205, 166),
+              0 0 rgb(118, 127, 230);
+            color: transparent;
+            transition: all 2s;
+          }
+          
+          H1:hover {
+            text-shadow:
+              -400px 0 rgb(92, 24, 71),
+              400px 0 rgb(188, 226, 99),
+              0 0 #378de5;
             }
 
-            .wish {
-                display: flex;
-                justify-content: center;
-                font-size: 20px;
-                background-color: aquamarine;
-            }
-
-            .liketoget {
-                border: $border-color-container;
-                padding: 10px;
-            }
-
-            .expect {
-                border-right:$border-color-container;
-                border-left:$border-color-container;
-                border-bottom: $border-color-container;
-                padding: 10px;
-
-            }
-
-            .youare {
-                display: flex;
-                margin-top: 10px;
-
-            }
-
-            .text {
-                border-color: #f70505;
-                color: #f70505;
-            }
+        // .bottom_form {
+        //    border-radius: 55%;
+        // }
+        
+        input{
+            border: 1px solid #2d2d2d;
+            border-bottom: 2px solid #000;
+        }
+        
+        input:focus{
+            outline: 0;
+            border-bottom: 2px solid rgb(230, 22, 178);
         }
 
         .youtube-videos {
