@@ -102,29 +102,29 @@ header audio {
   justify-content: center;
   border-bottom: solid 2px #2548e2;
 }
-.content .central-block .gallery-page .items-container .image-and-descrintion {
+.content .central-block .gallery-page .items-container .image-and-description {
   display: flex;
   height: 152px;
 }
-.content .central-block .gallery-page .items-container .image-and-descrintion .image.no-description {
+.content .central-block .gallery-page .items-container .image-and-description .image.no-description {
   border-right: none;
 }
-.content .central-block .gallery-page .items-container .image-and-descrintion .image {
+.content .central-block .gallery-page .items-container .image-and-description .image {
   border-right: solid 2px #2548e2;
   display: flex;
   justify-content: center;
   flex: 1;
 }
-.content .central-block .gallery-page .items-container .image-and-descrintion .image img {
+.content .central-block .gallery-page .items-container .image-and-description .image img {
   display: flex;
   justify-content: center;
   max-width: 200px;
   max-height: 100%;
 }
-.content .central-block .gallery-page .items-container .image-and-descrintion .image img:hover {
+.content .central-block .gallery-page .items-container .image-and-description .image img:hover {
   transform: scale(0.8);
 }
-.content .central-block .gallery-page .items-container .image-and-descrintion .description {
+.content .central-block .gallery-page .items-container .image-and-description .description {
   display: flex;
   flex: 1;
   justify-content: center;
