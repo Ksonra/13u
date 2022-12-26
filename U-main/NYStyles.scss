@@ -1,6 +1,6 @@
-$border-color-container:  solid 2px #2548e2;
+$border-color-container: solid 2px #2548e2;
 
-body{
+body {
     background: url(картинки/фон5.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -23,22 +23,20 @@ header {
     H1 {
         overflow: hidden;
         text-shadow:
-          0 0 rgb(255, 71, 200),
-          0 0 rgb(50, 205, 166),
-          0 0 rgb(118, 127, 230);
+            0 0 rgb(255, 71, 200),
+            0 0 rgb(50, 205, 166),
+            0 0 rgb(118, 127, 230);
         color: transparent;
         transition: all 2s;
-      }
-      
-      H1:hover {
+    }
+
+    H1:hover {
         text-shadow:
-          -400px 0 #e7b5fe,
-          400px 0 rgb(188, 226, 99),
-          0 0 #378de5;
-        }
+            -400px 0 #e7b5fe,
+            400px 0 rgb(188, 226, 99),
+            0 0 #378de5;
+    }
 }
-
-
 
 .logo {
     position: absolute;
@@ -50,10 +48,6 @@ header {
         width: 100px;
     }
 }
-
-
-
-
 
 .content {
     display: flex;
@@ -131,7 +125,6 @@ header {
                     background-color: pink;
                 }
 
-
                 .name {
                     display: flex;
                     justify-content: center;
@@ -174,7 +167,6 @@ header {
                         }
                     }
 
-
                     .description {
                         display: flex;
                         flex: 1;
@@ -189,16 +181,7 @@ header {
 
                 }
 
-                .descr {
-                    display: flex;
 
-                    justify-content: center;
-                    padding: 5px;
-                    overflow: auto;
-                    max-width: 100%;
-                    max-height: 100%;
-                    height: 144px;
-                }
 
 
 
@@ -263,7 +246,7 @@ header {
 
         }
 
-        .container_form{
+        .container_form {
             display: flex;
             margin: auto;
             margin-top: 5px;
@@ -273,13 +256,14 @@ header {
 
         .newpage {
             display: none;
-    
+
             &:target {
-            display: block;
-           }
+                display: block;
+            }
         }
 
-        .container_form fieldset, h2{
+        .container_form fieldset,
+        h2 {
             text-align: center;
             font-size: 15px;
             padding: 10px;
@@ -288,30 +272,26 @@ header {
         H1 {
             overflow: hidden;
             text-shadow:
-              0 0 rgb(92, 24, 71),
-              0 0 rgb(50, 205, 166),
-              0 0 rgb(118, 127, 230);
+                0 0 rgb(92, 24, 71),
+                0 0 rgb(50, 205, 166),
+                0 0 rgb(118, 127, 230);
             color: transparent;
             transition: all 2s;
-          }
-          
-          H1:hover {
-            text-shadow:
-              -400px 0 rgb(92, 24, 71),
-              400px 0 rgb(188, 226, 99),
-              0 0 #378de5;
-            }
+        }
 
-        // .bottom_form {
-        //    border-radius: 55%;
-        // }
-        
-        input{
+        H1:hover {
+            text-shadow:
+                -400px 0 rgb(92, 24, 71),
+                400px 0 rgb(188, 226, 99),
+                0 0 #378de5;
+        }
+
+        input {
             border: 1px solid #2d2d2d;
             border-bottom: 2px solid #000;
         }
-        
-        input:focus{
+
+        input:focus {
             outline: 0;
             border-bottom: 2px solid rgb(230, 22, 178);
         }
