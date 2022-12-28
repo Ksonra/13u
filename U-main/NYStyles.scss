@@ -209,6 +209,10 @@ header {
                         border-bottom-right-radius: 10px;
                         border-left: $border-color-container;
                     }
+
+                    .action:hover {
+                        background-color: #6239dd;
+                    }
                 }
 
                 .text {
@@ -247,14 +251,16 @@ header {
 
         .container_form {
             display: flex;
+            justify-content: center;
             margin: auto;
-            margin-top: 5px;
-            margin-left: 135px;
+            // margin-top: 110px;
+            // margin-left: 435px;
             background-color: rgb(246, 225, 250);
         }
 
         .newpage {
             display: none;
+            margin: 0 AUTO;
 
             &:target {
                 display: block;

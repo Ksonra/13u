@@ -156,6 +156,9 @@ header audio {
   border-bottom-right-radius: 10px;
   border-left: solid 2px #2548e2;
 }
+.content .central-block .gallery-page .items-container .additional-buttons .action:hover {
+  background-color: #6239dd;
+}
 .content .central-block .gallery-page .items-container .text {
   display: flex;
   justify-content: center;
@@ -181,13 +184,13 @@ header audio {
 }
 .content .central-block .container_form {
   display: flex;
+  justify-content: center;
   margin: auto;
-  margin-top: 5px;
-  margin-left: 135px;
   background-color: rgb(246, 225, 250);
 }
 .content .central-block .newpage {
   display: none;
+  margin: 0 AUTO;
 }
 .content .central-block .newpage:target {
   display: block;
